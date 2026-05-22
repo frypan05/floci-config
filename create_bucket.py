@@ -14,5 +14,5 @@ s3.put_object(
     Key="hello.txt",
     Body=b"hello floci",
 )
-#show
+
 print(s3.list_objects_v2(Bucket="my-bucket"))
